@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- <style>
+    body {
+        background-image: url('Img1.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+</style> -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> DNA encryption</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <article class="wrapper">
+        <div id="mtnZZZ"></div>
+        <h2 class="title">DNA Storage Using Peptide Sequences</h2>
+        <div class="form">
+            <form id="form" action="#">
+                <label for="data" id="inputseq">Input Sequence </label>
+                <input type="text" id="data" name="data" placeholder="Enter Message" autocomplete="off">
+
+                <button onclick="myFunction()" id="myBtn" type="button" class="btn btn-secondary">algo-1</button>
+                <button onclick="myFunction2()" id="myBtn-2" type="button" class="btn btn-secondary">algo-2</button>
+            </form>
+
+
+        </div>
+    
+
+        <div class="container">
+            <div class="encoding-box">
+                <p class="encd">Encoding</p>
+                <br>
+                Input is: <span id="input" class="sp"></span>
+                <br>
+                <br>
+                <br>
+                Converted-Binary String is: <span id="op1" class="sp"></span>
+                <br>
+                <br>
+                <br>
+                Encoded sequence is: <span id="fin" class="sp"></span>
+
+                <br>
+                <br>
+                <button id="decode-it" onclick="display()" class="btn btn-primary" type="submit">Decode</button>
+            </div>
+
+            <div class="decoding-box">
+                <p class="decd">Decoding</p>
+                <br>
+                Decoded Binary String is: <span id="decode-bin" class="sp"> </span>
+                <br>
+                <br>
+                <br>
+                Final output is: <span id="HI" class="sp">
+            </div>
+        </div>
+
+    </article>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
